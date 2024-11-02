@@ -7,9 +7,9 @@ Java 17 or later
 Maven for dependency managemenet and build
 
 ## Getting started:
-1. Clone the repository
+1. Clone the repository (files are in master branch)
    ```
-   git clone https://github.com/your-username/student-management-api.git
+   git clone -b master https://github.com/your-username/student-management-api.git
    cd student-management-api
    ```
 3. Build the project
