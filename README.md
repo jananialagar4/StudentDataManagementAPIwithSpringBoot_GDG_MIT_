@@ -9,7 +9,7 @@ Maven for dependency managemenet and build
 ## Getting started:
 1. Clone the repository (files are in master branch)
    ```
-   git clone -b master [https://github.com/your-username/student-management-api.git](https://github.com/jananialagar4/StudentDataManagementAPIwithSpringBoot_GDG_MIT_.git)
+   git clone -b master https://github.com/jananialagar4/StudentDataManagementAPIwithSpringBoot_GDG_MIT_.git
    
    cd student-management-api
    ```
