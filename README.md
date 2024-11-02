@@ -10,6 +10,7 @@ Maven for dependency managemenet and build
 1. Clone the repository (files are in master branch)
    ```
    git clone -b master https://github.com/your-username/student-management-api.git
+   
    cd student-management-api
    ```
 3. Build the project
