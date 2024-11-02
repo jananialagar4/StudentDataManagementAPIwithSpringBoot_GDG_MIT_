@@ -2,24 +2,30 @@
 
 This project is a simple RESTful API for Student Management System, built using Spring Boot. It supports basic CRUD operations with in-memory storage using a HashMap. It provides functionality to retreive all students, filter based on specific criteria, update records delete students, and retrieve top N students based on marks.
 
-#Prerequistes:
+## Prerequistes:
 Java 17 or later
 Maven for dependency managemenet and build
 
-#Getting started:
+## Getting started:
 1. Clone the repository
+   ```
    git clone https://github.com/your-username/student-management-api.git
    cd student-management-api
-2. Build the project
+   ```
+3. Build the project
+   ```
    mvm clean install
-3. Run the application
+   ```
+5. Run the application
+   ```
    mvn spring-boot:run
-4. Access swagger UI to test the API at
+   ```
+7. Access swagger UI to test the API at
+   ```
    http://localhost:8080/swagger-ui.html
+   ```
 
-
-
-#Endpoints:
+## Endpoints:
 - POST/students - creates new student with auto-incremeneted Id
 - GET/students - retrieves all students or filter based on critieria (course, feesPaid, minMarks, maxMarks)
 - GET/students/{id} - retrieve a specific student by Id
